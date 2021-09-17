@@ -1,0 +1,9 @@
+{
+    "env": {
+        "DB_USER": "karthik",
+        "DB_PASSWORD": "karthik",
+        "DB_NAME": "ogle",
+        "JWT_KEY": "super_secret_dont_share",
+        "MONGODB_CONNECTION_URI": "mongodb+srv://karthik:karthik@ogle.renou.mongodb.net/ogle?retryWrites=true&w=majority"
+    }
+}
