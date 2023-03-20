@@ -1,0 +1,26 @@
+{
+    "env": {
+        "DB_USER": "karthik",
+        "DB_PASSWORD": "karthik",
+        "DB_NAME": "ogle",
+        "JWT_KEY": "super_secret_dont_share",
+        "MONGODB_CONNECTION_URI": "mongodb+srv://karthik:karthik@ogle.renou.mongodb.net/ogle?retryWrites=true&w=majority"
+    }
+}
+
+
+echo "# Atheneum-Backend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KarthikAravindR/Atheneum-Backend.git
+git push -u origin main
+
+echo "# Atheneum-Frontend" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KarthikAravindR/Atheneum-Frontend.git
+git push -u origin main
